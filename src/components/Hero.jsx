@@ -1,3 +1,4 @@
+/* eslint-enable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../assets/styles.css";
 import profileImage from "../assets/images/profile.jpg"; // Import the image
