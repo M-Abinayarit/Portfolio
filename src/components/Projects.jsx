@@ -1,4 +1,3 @@
-/* eslint-enable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../assets/styles.css";
 
@@ -24,9 +23,12 @@ const Projects = () => {
                 <span className="tag">Express.js</span>
                 <span className="tag">MongoDB</span>
               </div>
-              <a href="#" className="project-link">
+              <button
+                className="project-link"
+                onClick={() => (window.location.href = "#")}
+              >
                 View Project <i className="fas fa-external-link-alt"></i>
-              </a>
+              </button>
             </div>
           </div>
           <div className="project-card">
@@ -42,9 +44,12 @@ const Projects = () => {
                 <span className="tag">Express.js</span>
                 <span className="tag">MongoDB</span>
               </div>
-              <a href="#" className="project-link">
+              <button
+                className="project-link"
+                onClick={() => (window.location.href = "#")}
+              >
                 View Project <i className="fas fa-external-link-alt"></i>
-              </a>
+              </button>
             </div>
           </div>
           <div className="project-card">
@@ -63,9 +68,12 @@ const Projects = () => {
                 <span className="tag">Express.js</span>
                 <span className="tag">CSS</span>
               </div>
-              <a href="#" className="project-link">
+              <button
+                className="project-link"
+                onClick={() => (window.location.href = "#")}
+              >
                 View Project <i className="fas fa-external-link-alt"></i>
-              </a>
+              </button>
             </div>
           </div>
           <div className="project-card">
@@ -80,9 +88,12 @@ const Projects = () => {
                 <span className="tag">Python</span>
                 <span className="tag">Machine Learning</span>
               </div>
-              <a href="#" className="project-link">
+              <button
+                className="project-link"
+                onClick={() => (window.location.href = "#")}
+              >
                 View Project <i className="fas fa-external-link-alt"></i>
-              </a>
+              </button>
             </div>
           </div>
           <div className="project-card">
@@ -100,9 +111,12 @@ const Projects = () => {
                 <span className="tag">Python</span>
                 <span className="tag">Machine Learning</span>
               </div>
-              <a href="#" className="project-link">
+              <button
+                className="project-link"
+                onClick={() => (window.location.href = "#")}
+              >
                 View Project <i className="fas fa-external-link-alt"></i>
-              </a>
+              </button>
             </div>
           </div>
         </div>
